@@ -1,11 +1,11 @@
 <div class="main">
         <div class="container">
+        <span>Welcome <?=$name?></span>
+                <?= $this->Html->link(__('Logout'), ['action' => 'logout'], ['class' => '']) ?>
             <div class="header">
                 <h3>
                    Add Contacts
                 </h3>
-                <span>Welcome <?=$name?></span>
-                <?= $this->Html->link(__('Logout'), ['action' => 'logout'], ['class' => '']) ?>
             </div>
             <div class="add-contact">
                 

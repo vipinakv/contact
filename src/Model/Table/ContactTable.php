@@ -61,6 +61,7 @@ class ContactTable extends Table
             ->notEmptyString('phone','Please enter phone');
 
             $validator
+            ->email('email')
             ->notEmptyString('email','Please enter email');
 
         return $validator;
