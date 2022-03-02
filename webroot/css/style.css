@@ -1,44 +1,50 @@
-body{
+body {
     margin: 0;
     color: #000;
 }
+
 .content {
     max-width: 350px;
     margin: 0 auto;
     padding: 0 15px;
 }
+
 .header {
     text-align: center;
 }
+
 .header {
     text-align: center;
     margin-top: 100px;
 }
 
-.header h1{
+.header h1 {
     font-weight: bold;
-    
 }
 
-.link{
-    margin:50px 0 20px;
+.link {
+    margin: 50px 0 20px;
 }
-.link a,.forgotpsw a{
+
+.link a,
+.forgotpsw a {
     font-weight: bold;
     text-decoration: none;
 }
+
 .col-form-label {
     font-weight: 600;
 }
 
-.form-div{
+.form-div {
     margin-bottom: 15px;
 }
 
-.btn{
+.btn {
     width: 100%;
     position: relative;
 }
+
 i.fa-solid.fa-lock {
     position: absolute;
     left: 15px;
@@ -46,34 +52,38 @@ i.fa-solid.fa-lock {
     top: 9px;
 }
 
-.forgotpsw{
+.forgotpsw {
     text-align: right;
     margin: 5px 0 20px;
 }
-.add-contact{
+
+.add-contact {
     max-width: 350px;
     margin: 0 auto;
     padding: 0 15px;
 }
 
-.form-add-div{
+.form-add-div {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
 }
-.add-input{
+
+.add-input {
     width: 100%;
     border: 1px solid #000;
     outline: none;
 }
+
 .add-label {
     width: 80px;
     font-weight: 600;
 }
 
-.header h3{
+.header h3 {
     margin-bottom: 30px;
 }
+
 .save-btn {
     background-color: #2196f3;
     border: 1px solid #000;
@@ -86,28 +96,33 @@ i.fa-solid.fa-lock {
 
 .table th {
     background-color: rgb(107, 105, 105) !important;
-    color:#fff;
+    color: #fff;
 }
 
-.table th,.table td{
+.table th,
+.table td {
     text-align: center;
     padding: 30px 0 !important;
-    
 }
 
-.table{
+.table {
     border-color: #000000 !important;
 }
+
 .table>:not(:first-child) {
     border-top: 0px solid currentColor !important;
 }
 
-@media only screen and (max-width: 425px)
-{
-    .table th,.table td{
+@media only screen and (max-width: 425px) {
+    .table th,
+    .table td {
         font-size: 14px;
     }
     #profile .header {
         margin-top: 50px;
     }
+}
+
+iframe {
+    display: none;
 }

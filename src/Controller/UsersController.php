@@ -74,7 +74,7 @@ class UsersController extends AppController
             $user->updated_at = time();
             if($userTable->save($user))
             {
-                $this->Flash->success('Register successful.Please login'); 
+                $this->Flash->success('Registration successful.Please login'); 
                 return $this->redirect(['action' => 'login']);
             }
         }
